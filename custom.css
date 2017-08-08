@@ -1,0 +1,17 @@
+.pics{
+	width: 100%;
+	height: 550px;
+}
+
+.jumbotron{
+	width: 100%;
+	height: 150px;
+	margin-bottom: 0px;
+}
+.jumbotron p{
+	padding-bottom: 20px;
+}
+
+.text-black{
+	color: black;
+}
