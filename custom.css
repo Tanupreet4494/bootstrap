@@ -19,3 +19,12 @@
 #carouselExampleControls{
 	margin-bottom:10px;
 }
+
+.card{
+	height: 520px;
+}
+
+.london{
+	height: auto;
+	width: 100%;
+}

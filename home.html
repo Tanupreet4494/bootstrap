@@ -15,7 +15,7 @@
   
   <body>
     <div class="container">
-        <nav class="navbar navbar-toggleable-sm bg-inverse navbar-inverse ">
+        <nav class="navbar navbar-toggleable-sm bg-inverse navbar-inverse">
             <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -102,46 +102,94 @@
 		<h2 class="display-4 py-5 mt-5 text-center">Around The World</h2>
 
         <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
-            <a class="nav-link active" href="#london" data-toggle="tab">London</a>
+            <a class="nav-link" href="#london" data-toggle="tab">London</a>
             <a class="nav-link" href="#newyork" data-toggle="tab">New York</a>
-            <a class="nav-link" href="#dubai" data-toggle="tab">Dubai</a>
+            <a class="nav-link active" href="#dubai" data-toggle="tab">Dubai</a>
             <a class="nav-link" href="#paris" data-toggle="tab">Paris</a>
+            <a class="nav-link" href="#sydney" data-toggle="tab">Sydney</a>
         </nav>
 
         <div class="tab-content py-5">
-            <div class="tab-pane active" id="london">
-                <h3>London</h3>
-                <p class="display-3">15°C</p>
-				<p class="display-4">Thursday 11AM </p>
-				<p class="display-4">Precipitation: 0% </p>
-				<p class="display-4">Humidity: 78% </p>
-				<p class="display-4">Wind: 14km/h </p>
+            <div class="tab-pane" id="london">
+                <!-- <h3>London</h3> -->
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../bootstrap/london.jpg">
+                    </div>
+                <div class="col-md-6 col-lg-6">
+                    <p class="display-3">15°C</p>
+				    <p class="display-4">Thursday 11AM </p>
+				    <p class="display-4">Precipitation: 0% </p>
+				    <p class="display-4">Humidity: 78% </p>
+				    <p class="display-4">Wind: 14km/h </p>
+                </div>
+                </div>
             </div>
-            <div class="tab-pane fade" id="newyork">
-                <h3>New York</h3>
+
+            <div class="tab-pane" id="newyork">
+                <!-- <h3>New York</h3> -->
+                <div class="row">
+                <div class="col-md-6 col-lg-6">
                 <p class="display-3">24°C</p>
 				<p class="display-4">Thursday 2PM </p>
 				<p class="display-4">Precipitation: 0% </p>
 				<p class="display-4">Humidity: 60% </p>
 				<p class="display-4">Wind: 11km/h </p>
             </div>
-            <div class="tab-pane fade" id="dubai">
-                <h3>Dubai</h3>
+                <div class="col-md-6 col-lg-6">
+                    <img class="img-fluid" src="../bootstrap/newyork.jpg">
+                </div>
+            </div>
+            </div>
+
+            <div class="tab-pane active" id="dubai">
+                <!-- <h3>Dubai</h3> -->
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../bootstrap/dubai.jpg">
+                    </div>
+                <div class="col-md-6 col-lg-6">
                 <p class="display-3">38°C</p>
 				<p class="display-4">Thursday 10PM </p>
 				<p class="display-4">Precipitation: 0% </p>
 				<p class="display-4">Humidity: 33% </p>
 				<p class="display-4">Wind: 5km/h </p>
+                </div>
             </div>
-            <div class="tab-pane fade" id="paris">
-                <h3>Paris</h3>
+            </div>
+
+            <div class="tab-pane" id="paris">
+                <!-- <h3>Paris</h3> -->
+                <div class ="row">
+                <div class ="col-md-6 col-lg-6">
                 <p class="display-3">16°C</p>
 				<p class="display-4">Thursday 8PM </p>
 				<p class="display-4">Precipitation: 0% </p>
 				<p class="display-4">Humidity: 80% </p>
 				<p class="display-4">Wind: 20km/h </p>
+                </div>
+                    <div class="col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../bootstrap/paris.jpeg">
+                    </div>
             </div>
-        </div>
+            </div>
+
+            <div class="tab-pane" id="sydney">
+                <!-- <h3>Dubai</h3> -->
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../bootstrap/sydney.jpg">
+                    </div>
+                <div class="col-md-6 col-lg-6">
+                <p class="display-3">19°C</p>
+                <p class="display-4">Thursday 1PM </p>
+                <p class="display-4">Precipitation: 0% </p>
+                <p class="display-4">Humidity: 41% </p>
+                <p class="display-4">Wind: 21km/h </p>
+                </div>
+            </div>
+            </div>
+
 
 
 
