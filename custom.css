@@ -23,15 +23,7 @@
 
 .card {
     height: 520px;
-}
-
-.london {
-    height: auto;
-    width: 100%;
-}
-
-.sydney .london .paris .dubai .newyork{
-    margin-bottom: 100px;
+    margin-bottom: -30px;
 }
 
 .footer {
