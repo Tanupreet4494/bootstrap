@@ -1,0 +1,34 @@
+.pics {
+    width: 100%;
+    height: 30%;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 0px;
+}
+
+.jumbotron p {
+    padding-bottom: 20px;
+}
+
+.text-black {
+    color: black;
+}
+
+#carouselExampleControls {
+    margin-bottom: 10px;
+}
+
+.card {
+    height: 520px;
+    margin-bottom: -30px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin-bottom: -50px;
+    margin-top: 35px;
+}

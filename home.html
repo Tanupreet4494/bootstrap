@@ -5,11 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../bootstrap/custom.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/custom.css">
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+    
 </head>
 
 <body>
@@ -30,12 +32,16 @@
                 </div>
             </div>
         </nav>
+
+        <!--Using Jumbotron class -->
         <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
             <div class="container">
                 <h1 class="display-5">Thursday 10 August 2017</h1>
                 <p class="font-italic">"Climate is what we expect, Weather is what we get"</p>
             </div>
         </div>
+
+        <!--Using Carousel Class for animation of pictures sliding after few seconds -->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
@@ -55,8 +61,10 @@
                 <span class="carousel-control-next-icon" ></span>
           </a>
         </div>
+
+        <!--Using Card class for creating partition coloumn wise -->
         <div class="row">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3"><!-- In medium device it will take 6 coloumns and in large it will take 3 coloumns -->
                 <div class="card">
                     <img class="card-img-top img-fluid" src="../bootstrap/images/delhi.jpg">
                     <div class="card-block">
@@ -65,15 +73,17 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-3">
                 <div class="card">
                     <img class="card-img-top img-fluid" src="../bootstrap/images/mumbai.jpg">
                     <div class="card-block">
                         <h3 class="card-title">Mumbai</h3>
-                        <p class="card-text">The Climate of Mumbai is a tropical wet and dry climate. Mumbai's climate can be best described as moderately hot with high level of humidity. Its coastal nature and tropical location ensures temperatures won't fluctuate much throughout the year.</p>
+                        <p class="card-text">The Climate of Mumbai is a tropical wet and dry climate. Mumbai's climate can be best described as moderately hot with high level of humidity. Its coastal nature, tropical location ensures temperatures won't fluctuate throughout the year.</p>
                     </div>
                 </div>
             </div>
+            
             <div class="col-md-6 col-lg-3">
                 <div class="card">
                     <img class="card-img-top img-fluid" src="../bootstrap/images/kolkata.jpg">
@@ -83,6 +93,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-md-6 col-lg-3">
                 <div class="card">
                     <img class="card-img-top img-fluid" src="../bootstrap/images/chennai.jpg">
@@ -93,7 +104,9 @@
                 </div>
             </div>
         </div>
-        <h2 class="display-4 py-5 mt-3 text-center">Around The World</h2>
+        
+        <!--Using nav class and toggle class to display different different content on same page on clicking the tab -->
+        <h2 class="display-4 py-5 text-center">Around The World</h2>
         <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
             <a class="nav-link" href="#london" data-toggle="tab">London</a>
             <a class="nav-link" href="#newyork" data-toggle="tab">New York</a>
@@ -101,14 +114,15 @@
             <a class="nav-link" href="#paris" data-toggle="tab">Paris</a>
             <a class="nav-link" href="#sydney" data-toggle="tab">Sydney</a>
         </nav>
+
         <div class="tab-content py-5">
             <div class="tab-pane" id="london">
                 <!-- <h3>London</h3> -->
                 <div class="row london">
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 ">
                         <img class="img-fluid" src="../bootstrap/images/london.jpg">
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 ">
                         <p class="display-3">15°C</p>
                         <p class="display-4">Thursday 11AM </p>
                         <p class="display-4">Precipitation: 0% </p>
@@ -117,28 +131,31 @@
                     </div>
                 </div>
             </div>
+        
             <div class="tab-pane" id="newyork">
                 <!-- <h3>New York</h3> -->
                 <div class="row newyork">
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 ">
                         <p class="display-3">24°C</p>
                         <p class="display-4">Thursday 2PM </p>
                         <p class="display-4">Precipitation: 0% </p>
                         <p class="display-4">Humidity: 60% </p>
                         <p class="display-4">Wind: 11km/h </p>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+
+                    <div class="col-md-6 ">
                         <img class="img-fluid" src="../bootstrap/images/newyork.jpg">
                     </div>
                 </div>
             </div>
+            
             <div class="tab-pane active" id="dubai">
                 <!-- <h3>Dubai</h3> -->
                 <div class="row dubai">
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 ">
                         <img class="img-fluid" src="../bootstrap/images/dubai.jpg">
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 ">
                         <p class="display-3">38°C</p>
                         <p class="display-4">Thursday 10PM </p>
                         <p class="display-4">Precipitation: 0% </p>
@@ -147,28 +164,30 @@
                     </div>
                 </div>
             </div>
+            
             <div class="tab-pane" id="paris">
                 <!-- <h3>Paris</h3> -->
                 <div class="row paris">
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 ">
                         <p class="display-3">16°C</p>
                         <p class="display-4">Thursday 8PM </p>
                         <p class="display-4">Precipitation: 0% </p>
                         <p class="display-4">Humidity: 80% </p>
                         <p class="display-4">Wind: 20km/h </p>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 ">
                         <img class="img-fluid" src="../bootstrap/images/paris.jpeg">
                     </div>
                 </div>
             </div>
+            
             <div class="tab-pane" id="sydney">
                 <!-- <h3>Dubai</h3> -->
                 <div class="row sydney">
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 ">
                         <img class="img-fluid" src="../bootstrap/images/sydney.jpg">
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 ">
                         <p class="display-3">19°C</p>
                         <p class="display-4">Thursday 1PM </p>
                         <p class="display-4">Precipitation: 0% </p>
@@ -177,11 +196,25 @@
                     </div>
                 </div>
             </div>
+
             <footer class="footer container-fluid">
                 <div class="row">
-                    <div class="col-md-6 col-lg-6">
+                
+                    <div class="col-md-4 ">
+                        <p class="about"> NIIT TECHNOLOGIES</p>
+                        <p class="privacy"> VIBHOR.5.TANEJA@NIIT-TECH.COM</p>
+                        <p class="contact"> 8755921886</p>
+                    </div>
+
+                     <div class="col-md-4 ">
+                        <p class="Products"> Weather App</p>
+                        <p class="Solutions"> Real Time Weather Forecasting</p>
+                        
+                    </div>
+
+                    <div class="col-md-4 ">
                         <a href="http://www.facebok.com">
-            <img src = "../bootstrap/images/images/icon_fb.png" ">
+            <img src = "../bootstrap/images/icon_fb.png" ">
         </a>
                         <a href="http://www.twitter.com">
             <img src = "../bootstrap/images/icon_twitter.png" >
@@ -192,12 +225,9 @@
                         <a href="http://www.snapchat.com">
             <img src = "../bootstrap/images/icon_sc.png" >
         </a>
+                    
                     </div>
-                    <div class="col-md-6 col-lg-6">
-                        <p class="about"> NIIT TECHNOLOGIES</p>
-                        <p class="privacy"> VIBHOR.5.TANEJA@NIIT-TECH.COM</p>
-                        <p class="contact"> 8755921886</p>
-                    </div>  </div>
+                    </div>
                 </footer>
         </div>
 </body>
