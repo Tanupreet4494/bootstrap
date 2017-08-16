@@ -23,7 +23,7 @@
 }
 
 .card {
-    height: 520px;
+    height: 550px;
     margin-bottom: -30px;
 }
 
@@ -32,4 +32,23 @@
     color: white;
     margin-bottom: -50px;
     margin-top: 35px;
+}
+
+
+@media (max-width: 425px) {
+    .display-4 {
+        font-size: 20px;
+    }
+    .display-3 {
+        font-size: 22px
+    }
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 30px;
+    }
+    .display-3 {
+        font-size: 32px
+    }
 }
